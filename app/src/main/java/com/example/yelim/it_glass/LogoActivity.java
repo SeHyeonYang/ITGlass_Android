@@ -37,7 +37,7 @@ public class LogoActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if(databaseCreated) {
-                    createDatabase();
+                    //createDatabase();
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
                     finish();
